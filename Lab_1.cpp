@@ -77,15 +77,7 @@ int main()
     };
     printf("\n");
     
-    /*
-    printf("%d\n",in_mass(0, A, LMAX));
-    printf("%d\n", in_mass(1, A, LMAX) );
-    printf("%d\n", in_mass(10, A, LMAX) );
-    printf("%d\n", in_mass(-55, B, LMAX));
-    printf("%d\n", in_mass(1, B, LMAX) );
-    */
     int C[LMAX * 2];
-
     int ind_C = 0;
     for (int i = 0; i < LMAX; i ++)
     {
